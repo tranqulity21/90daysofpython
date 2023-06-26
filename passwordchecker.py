@@ -1,7 +1,7 @@
 #create a password checker for me that does the following
 #checks the password length is at least 6 characters long
 #check whether it includes an uppercase,lowercase,a digit and a special character
-#ask for user email to make sure there's no relation with the passowrd input
+#ask for user email to make sure there's no relation with the password input
 def password_checker(password):
   #we assign the variable has_digit to
   #any() is a built in function that checks through the list if any has the quality needed
