@@ -12,6 +12,6 @@ class Dog:
     
 dog1 = Dog("cookie")
 dog2 = Dog("mace")
-#call the method
+#calling object dog1/dog2 to execute the method bark()
 dog1.bark()
 dog2.bark()
