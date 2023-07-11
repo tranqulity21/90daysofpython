@@ -8,7 +8,7 @@ class Dog:
 #function runs everytime an object is created from the class
   def __init__(self):
     print("Teeshah kennels")
-#instance variable
+#instance variable TYPE 1
     self.puppy_number = (random.randint(1,10))
   
 print(Dog.Breed)
@@ -19,6 +19,6 @@ dog2 = Dog()
 
 #instance variables are individual to a particular object
 
-#creating instance class afterobject is created
+#creating instance class afterobject is created TYPE 2
 dog1.name = "Cookie"
 print(dog1.name)
