@@ -1,0 +1,9 @@
+class Robot:
+    def __init__(self,name,color):#define parameters in init constructor
+        self.name = name
+        self.color = color
+    def introduce_self(self):#function of the robot
+        print(f"hi i'm {self.name} I'm also {self.color} in color")
+
+r1 = Robot("darth","blue")#creating an object
+r1.introduce_self()#print output
