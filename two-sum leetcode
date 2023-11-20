@@ -1,0 +1,17 @@
+#function to provide values for
+def sum(array,target):
+    #define length of array
+    n = len(array)
+
+    for i in range(n):
+        #loops from the second number in the array
+        for j in range(i+1,n):
+            #sum of the two numbers
+            if array[i] + array[j] == target:
+                #returns the numbers
+                return [array[i],array[j]]
+
+array = [2, 7, 11, 15]
+target = 10
+result = sum(array, target)
+print(result)
